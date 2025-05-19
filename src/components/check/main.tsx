@@ -26,7 +26,7 @@ const CheckAndRender: FC<CheckAndRenderPropsType> = ({ children }) => {
 
   useEffect(() => {
     if (!isListining && status === 'idal') {
-      //start()
+      start()
     }
   }, [isListining, start, status]);
 
